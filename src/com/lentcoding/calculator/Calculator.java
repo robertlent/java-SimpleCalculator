@@ -20,7 +20,7 @@ public class Calculator implements ActionListener {
             "+/-", "0", ".",
             "*", "/", "+", "-", "="
     };
-    private final int[] dimWidths = {300, 45, 100, 90};
+    private final int[] dimWidths = {300, 55, 100, 90};
     private final int[] dimHeights = {30, 40};
     private final Dimension dimDisplay = new Dimension(dimWidths[0], dimHeights[0]);
     private final Dimension dimRegular = new Dimension(dimWidths[1], dimHeights[1]);
@@ -28,7 +28,7 @@ public class Calculator implements ActionListener {
     private final boolean[] function = new boolean[4];
     private final double[] temp = {0, 0};
     // TODO: 2/2/2017 Add a new JTextArea to display equation as it is typed
-    private final JTextArea display = new JTextArea(1, 20);
+    private final JTextArea display = new JTextArea(1, 10);
     private final Font font = new Font("Times new Roman", Font.BOLD, 14);
     private final Font displayFont = new Font("Times new Roman", Font.BOLD, 20);
 //    String equation = "";
